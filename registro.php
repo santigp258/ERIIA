@@ -1,85 +1,4 @@
-<!doctype html>
-<html class="no-js" lang="">
-
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/all.css">
-  <link rel="stylesheet" href="css/fontawesome.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=PT+Sans&display=swap" rel="stylesheet"> 
-  <meta name="theme-color" content="#fafafa">
-</head>
-
-<body>
-
-  <!-- Add your site or application content here -->
- <header class="site-header">
-
-  <div class="hero">
-    <div class="contenido-header">
-
-      <nav class="redes-sociales">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-pinterest"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-      </nav>
-
-      <div class="informacion-evento">
-        <div class="clearfix">
-          <p class="fecha"><i class="far fa-calendar-alt"></i> 10-12 dic</p>
-          <p class="ciudad"><i class="fas fa-map-marker-alt"></i> Zarzal, MX</p>
-        </div>
-   
-    <h1 class="nombre-sitio">Univalle</h1>
-    <p class="slogan">La mejor conferencia de <span>diseño web</span></p>
-
-      </div>  <!--Informacióń evento-->
-     
-    </div>  
-  </div>   <!---Hero-->
-
-
- </header>
-
- <div class="barra">
-
-  <div class="contenedor clearfix">
-    <div class="logo">
-      <img src="img/logo.svg" alt="logo imagen"> </div>  <!--logo-->
-
-    <div class="menu-movil">
-      <span></span>
-      <span></span>
-      <span></span>
-
-    </div>   <!--menu-movil-->
-
-    <nav class="navegacion-principal clearfix">
-      <a href="#">Conferencia</a>
-      <a href="#">Calendario</a>
-      <a href="#">Invitados</a>
-      <a href="#">Reservaciones</a>
-    </nav>
-
-  </div>    <!--contenedor-->
-</div>   <!--Barra-->
+<?php   include_once 'includes/templates/header.php'; ?>
 
 <section class="seccion form">
 <h2>Insríbete</h2>
@@ -173,3 +92,5 @@
 </body>
 
 </html>
+
+<?php   include_once 'includes/templates/footer.php'; ?>

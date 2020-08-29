@@ -1118,6 +1118,13 @@ input[disabled].button{
     max-width: 1100px;
   }
 }
+
+/*   Colorbox*/
+
+div.cboxElement{
+  padding: 30px!important;
+  text-align: center;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
