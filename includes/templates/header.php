@@ -25,8 +25,7 @@
     $pagina = str_replace(".php", "", $archivo);  //primero lo que quieres buscar, por qué reemplazar, y fuente de datos
     if($pagina == 'invitados' || $pagina == 'index'){
       echo '<link rel="stylesheet" href="css/colorbox.css">';
-    } 
-  
+    }
   ?>
   <link rel="stylesheet" href="css/all.css">
   <link rel="stylesheet" href="css/fontawesome.css">

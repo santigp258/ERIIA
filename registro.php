@@ -5,24 +5,94 @@
 <form>
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputName">Nombre(s)</label>
+      <label for="name">Nombre(s)</label>
       <input type="text" class="form-control" id="inputName" placeholder="Nombre(s)">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputLastname">Apellido(s)</label>
+      <label for="lastname">Apellido(s)</label>
       <input type="text" class="form-control" id="inputLastname" placeholder="Apellido(s)">
     </div>
   </div>
-  <div class="form-group">
-    <label for="inputEmail">Email</label>
-    <input type="email" class="form-control" id="inputEmail" placeholder="correo@correo.com">
+  <div class="form-row">
+  	<div class="form-group col-md-6">
+  	  <label for="email">Email</label>
+  	  <input type="email" class="form-control" id="inputEmail" placeholder="correo@correo.com">
+    </div>
+    
+  	<div class="form-group col-md-6">
+  	  <label for="telefono">Número de teléfono</label>
+  	  <input type="text" class="form-control" id="telefono" placeholder="">
+  	</div>
+
+  </div>
+
+  <div class="form-row">
+  <div class="form-group col-md-6">
+  <label for="ocupacion">Ocupación </label>
+  	<input type="text" class="form-control" id="ocupacion" placeholder="">
+  </div>
+
+    <div class="form-group col-md-6">
+      <label class="mdb-main-label">Departamento</label>
+      	<select id="departamento" name="departamento" class="browser-default custom-select">
+      	    <option selected>--Seleccione--</option>
+      	    <option value="ama">Amazonas</option>
+      	    <option value="ant">Antioquía</option>
+            <option value="ara">Arauca</option>
+            <option value="atl">Atlántico</option>
+            <option value="bol">Bolivar</option>
+            <option value="boy">Boyacá</option>
+            <option value="cal">Caldas</option>
+            <option value="caq">Caquetá</option>
+            <option value="cas">Casanare</option>
+            <option value="cau">Cauca</option>
+            <option value="ces">Cesar</option>
+            <option value="choc">Chocó</option>
+            <option value="cor">Córdoba</option>
+            <option value="cun">Cundinamarca</option>
+            <option value="gua">Guainía</option>
+            <option value="guav">Guaviare</option>
+            <option value="hui">Huila</option>
+            <option value="guaj">La Guajira</option>
+            <option value="mag">Magdalena</option>
+            <option value="met">Meta</option>
+            <option value="nar">Nariño</option>
+            <option value="nsan">Norte de Santander</option>
+            <option value="put">Putumayo</option>
+            <option value="quin">Quindío</option>
+            <option value="ris">Risaralda</option>
+            <option value="andr">San Andrés y Providencia</option>
+            <option value="san">Santander</option>
+            <option value="suc">Sucre</option>
+            <option value="tol">Tolima</option>
+            <option value="val">Valle del Cauca</option>
+            <option value="vau">Vaupés</option>
+            <option value="vich">Vichada</option>
+      	</select>
+  </div>
+    </div>
+
+    <div class="form-row">
+
+    <div class="form-group col-md-6">
+      <label for="ciudad">Ciudad</label><div class="form-group col-md-6">
+      <label for="ciudad">Ciudad</label>
+      <input type="text" class="form-control" id="ciudad" placeholder="Ciudad">
+    </div>
+  <div class="form-group col-md-6">
+  <label for="direccion">Dirección </label>
+  	<input type="text" class="form-control" id="direccion" placeholder="">
+  </div>
+
+  
   </div>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
+      <label class="form-check-label" for="gridCheck"> 
         Acepto los <a href="#">Términos y condiciones</a>
-      </label>
+      </label> 
     </div>
+    <br>
   </div>
   <button type="submit" class="btn btn-primary">Enviar</button>
 
@@ -31,66 +101,5 @@
  </form>
   
 </section>
-
-<footer class="site-footer">
-
- <div class="contenedor clearfix">
-
-<div class="footer-informacion">
-<h3>Sobre <span>Univalle</span></h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt consequatur commodi dolorum sint, facilis, volu
-  ptate asperiores repellat quae labore possimus 
-  dignissimos eum autem, sed excepturi minima. Quidem, ad enim.</p>
-</div> <!--footer informacion-->
-
-<div class="ultimos-tweets">
-  <h3>Últimos <span>tweets</span></h3>
-
-<ul>
-
-  <li>dolorum sint, facilis, volu
-    ptate asperiores repellat quae labore possimus 
-    dignissimos eum autem, sed excepturi minima. Quidem, ad enim</li>
-  <li>dolorum sint, facilis, volu
-      ptate asperiores repellat quae labore possimus 
-      dignissimos eum autem, sed excepturi minima. Quidem, ad enim</li>
-  <li>dolorum sint, facilis, volu
-        ptate asperiores repellat quae labore possimus 
-        dignissimos eum autem, sed excepturi minima. Quidem, ad enim</li>
-
-</ul>
-
-
-</div>  <!--tweets-->
-    
-<div class="menu">
-  <h3>Redes<span>Sociales</span></h3>
-  <nav class="redes-sociales">
-    <a href="#"><i class="fab fa-facebook-f"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-pinterest"></i></a>
-    <a href="#"><i class="fab fa-youtube"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-</nav>
-</div>
-
- </div> <!--contenedor-->
-
- <p class="copyright">
-  Todos los derechos reservados proyecto 2020 
-</p>
-
-</footer>
-
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
- 
-</body>
-
-</html>
 
 <?php   include_once 'includes/templates/footer.php'; ?>
