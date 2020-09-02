@@ -75,7 +75,6 @@
     <div class="form-row">
 
     <div class="form-group col-md-6">
-      <label for="ciudad">Ciudad</label><div class="form-group col-md-6">
       <label for="ciudad">Ciudad</label>
       <input type="text" class="form-control" id="ciudad" placeholder="Ciudad">
     </div>
@@ -83,6 +82,8 @@
   <label for="direccion">Dirección </label>
   	<input type="text" class="form-control" id="direccion" placeholder="">
   </div>
+
+    </div>
 
   
   </div>
@@ -93,7 +94,7 @@
       </label> 
     </div>
     <br>
-  </div>
+
   <button type="submit" class="btn btn-primary">Enviar</button>
 
          <div id="error"></div>
