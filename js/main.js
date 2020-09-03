@@ -66,7 +66,7 @@
             }
         }
 
-
+/* 
         function calcularMontos(event){
             event.preventDefault();
             if(regalo.value === ""){
@@ -141,7 +141,7 @@
             for(var i = 0; i < diasElegidos.length; i++){
                 document.getElementById(diasElegidos[i]).style.display= "block";
            }
-        }  
+        }   */
 
 
 });  //DOM CONTENT LOADED
@@ -157,8 +157,6 @@
     //Menu fijado
     var windowHeight = $(window).height();
     var barraAltura = $(".barra").innerHeight();
-
-    console.log(barraAltura)
   
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();

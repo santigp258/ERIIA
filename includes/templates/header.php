@@ -69,7 +69,7 @@
 
   <div class="contenedor clearfix">
     <div class="logo">
-    <a href="index.php"><img src="img/logo.svg" alt="logo imagen"> </div></a>  <!--logo-->
+    <a href="index.php"><img src="" alt="logo imagen"> </div></a>  <!--logo-->
 
     <div class="menu-movil">
       <span></span>

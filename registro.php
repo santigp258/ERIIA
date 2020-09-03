@@ -2,34 +2,39 @@
 
 <section class="seccion form">
 <h2>Insríbete</h2>
-<form>
+<form id="registro" class="registro" action="validar_registro.php" method="post">
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="name">Nombre(s)</label>
-      <input type="text" class="form-control" id="inputName" placeholder="Nombre(s)">
+      <label for="nombre">Nombre(s)</label>
+      <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre(s)">
     </div>
     <div class="form-group col-md-6">
-      <label for="lastname">Apellido(s)</label>
-      <input type="text" class="form-control" id="inputLastname" placeholder="Apellido(s)">
+      <label for="apellido">Apellido(s)</label>
+      <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido(s)">
     </div>
   </div>
   <div class="form-row">
   	<div class="form-group col-md-6">
   	  <label for="email">Email</label>
-  	  <input type="email" class="form-control" id="inputEmail" placeholder="correo@correo.com">
+  	  <input type="email" class="form-control" id="email" name="email" placeholder="correo@correo.com">
     </div>
     
   	<div class="form-group col-md-6">
   	  <label for="telefono">Número de teléfono</label>
-  	  <input type="text" class="form-control" id="telefono" placeholder="">
+  	  <input type="text" class="form-control" id="telefono" name="telefono" placeholder="ingrese su número de teléfono">
   	</div>
 
   </div>
 
   <div class="form-row">
   <div class="form-group col-md-6">
-  <label for="ocupacion">Ocupación </label>
-  	<input type="text" class="form-control" id="ocupacion" placeholder="">
+      <label class="mdb-main-label">Ocupación</label>
+      	<select id="ocupacion" name="ocupacion" class="browser-default custom-select">
+      	    <option selected>--Seleccione--</option>
+      	    <option value="est">Estudiante</option>
+      	    <option value="pro">Profesor</option>
+            <option value="par">Particular</option>
+      	</select>
   </div>
 
     <div class="form-group col-md-6">
@@ -76,11 +81,11 @@
 
     <div class="form-group col-md-6">
       <label for="ciudad">Ciudad</label>
-      <input type="text" class="form-control" id="ciudad" placeholder="Ciudad">
+      <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Ciudad">
     </div>
   <div class="form-group col-md-6">
   <label for="direccion">Dirección </label>
-  	<input type="text" class="form-control" id="direccion" placeholder="">
+  	<input type="text" class="form-control" id="direccion" name="direccion" placeholder="Ingrese su dirección">
   </div>
 
     </div>
@@ -88,14 +93,17 @@
   
   </div>
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <input class="form-check-input" type="checkbox" id="gridCheck" name="tyc">
       <label class="form-check-label" for="gridCheck"> 
-        Acepto los <a href="#">Términos y condiciones</a>
+        
+      &nbsp;Acepto los <a href="#">Términos y condiciones</a>
+         
       </label> 
     </div>
     <br>
 
-  <button type="submit" class="btn btn-primary">Enviar</button>
+    
+    <input type="submit" id="btnRegistro" class="button" name="submit" value="Enviar Inscripción"> 
 
          <div id="error"></div>
          </div> <!--datos_usuario-->
