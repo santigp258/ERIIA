@@ -33,7 +33,7 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<body class="<?php echo $pagina; ?>">
 
   <!-- Add your site or application content here -->
  <header class="site-header">
@@ -79,9 +79,11 @@
     </div>   <!--menu-movil-->
 
     <nav class="navegacion-principal clearfix">
-      <a href="#">Calendario</a>
+      <a href="tyc.php">TyC</a> 
+      <a href="calendario.php">Calendario</a>
       <a href="invitados.php">Invitados</a>
       <a href="registro.php">Registrarse</a>
+      
     </nav>
 
   </div>    <!--contenedor-->

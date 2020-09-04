@@ -154,6 +154,11 @@
 
     $(".nombre-sitio").lettering();
 
+     //identificar posición en la página
+     $('body.invitados .navegacion-principal a:contains("Invitados")').addClass('activo');
+     $('body.calendario .navegacion-principal a:contains("Calendario")').addClass('activo');
+     $('body.tyc .navegacion-principal a:contains("TyC")').addClass('activo');
+
     //Menu fijado
     var windowHeight = $(window).height();
     var barraAltura = $(".barra").innerHeight();
@@ -193,11 +198,18 @@
 
 //Animaciones para los números
 
-    $(".resumen-evento li:nth-child(1) p").animateNumber({ number: 6}, 1200);
-    $(".resumen-evento li:nth-child(2) p").animateNumber({number : 15}, 1200);
-    $(".resumen-evento li:nth-child(3) p").animateNumber({number : 3}, 1200);
-    $(".resumen-evento li:nth-child(4) p").animateNumber({number : 2}, 1200);
-     $(".resumen-evento li:nth-child(5) p").animateNumber({number : 7}, 1200);
+var resumenLista = jQuery('.resumen-evento');
+if(resumenLista.length > 0){
+    $('.resumen-evento').waypoint(function(){
+        $(".resumen-evento li:nth-child(1) p").animateNumber({ number: 6}, 1200);
+        $(".resumen-evento li:nth-child(2) p").animateNumber({number : 15}, 1200);
+        $(".resumen-evento li:nth-child(3) p").animateNumber({number : 3}, 1200);
+        $(".resumen-evento li:nth-child(4) p").animateNumber({number : 2}, 1200);
+        $(".resumen-evento li:nth-child(5) p").animateNumber({number : 7}, 1200);
+    }, {
+        offset: '60%' //porcentanje de pantalla a recorrer para ejecutar waypoints
+    });
+}
 
 
 
