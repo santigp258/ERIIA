@@ -1,7 +1,7 @@
 <?php   include_once 'includes/templates/header.php'; ?>
 
 <section class="seccion contenedor">
-  <h2>La mejor conferencia de diseño web en español</h2>
+  <h2>Encuentro Regional de  <span>Ingenieria Industrial</span> y afines</p></h2>
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae culpa provident voluptatem reiciendis quae animi enim reprehenderit veniam ullam ipsa laudantium
      fugiat aut sapiente fugit architecto assumenda, nemo harum quas!</p>
 </section> <!--seccion-->

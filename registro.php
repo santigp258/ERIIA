@@ -93,7 +93,7 @@
   
   </div>
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck" name="tyc">
+      <input class="form-check-input" type="checkbox" id="gridCheck" name="tyc" data-toggle="modal" data-target="#exampleModalLong">
       <label class="form-check-label" for="gridCheck"> 
         
       &nbsp;Acepto los <a href="#">Términos y condiciones</a>
@@ -110,5 +110,27 @@
  </form>
   
 </section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Términos y Condiciones</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae culpa provident voluptatem reiciendis quae animi enim reprehenderit veniam ullam ipsa laudantium
+     fugiat aut sapiente fugit architecto assumenda, nemo harum quas!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <?php   include_once 'includes/templates/footer.php'; ?>

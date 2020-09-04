@@ -31,7 +31,7 @@
 </div>  <!--twwets-->
    
 <div class="menu">
- <h3>Redes<span>Sociales</span></h3>
+ <h3>Redes <span>Sociales</span></h3>
  <nav class="redes-sociales">
    <a href="#"><i class="fab fa-facebook-f"></i></a>
    <a href="#"><i class="fab fa-twitter"></i></a>
@@ -66,7 +66,9 @@
     }
   
   ?>
+ 
  <script src="js/main.js"></script>
+ <script src="js/bootstrap.js"></script>
  <script src="js/menu.js"></script>
  
  
